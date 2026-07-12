@@ -1,5 +1,46 @@
-__pycache__/
+```
+# Compiled Python files
 *.pyc
-*.pyo
+__pycache__/
+
+# Data files (if they are generated)
+*.csv
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+.venv/
+venv/
+pip-tools/
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+*.so
+*.dylib
+*.dll
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+
+# OS generated files
 .DS_Store
-last_sync.json
+Thumbs.db
+```
